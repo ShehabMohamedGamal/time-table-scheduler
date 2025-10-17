@@ -1,0 +1,523 @@
+2025-10-18 00:35:46,453 - __main__ - INFO - Initializing Timetable Management System...
+2025-10-18 00:35:46,482 - src.database - INFO - Database schema initialized successfully
+2025-10-18 00:35:46,482 - __main__ - INFO - Database initialized
+2025-10-18 00:35:46,482 - __main__ - INFO - Data parser initialized
+2025-10-18 00:35:46,482 - __main__ - INFO - Schedule validator initialized
+2025-10-18 00:35:46,482 - __main__ - INFO - Slot manager initialized
+2025-10-18 00:35:46,486 - fastapi - ERROR - Form data requires "python-multipart" to be installed. It seems you installed "multipart" instead. 
+You can remove "multipart" with: 
+
+pip uninstall multipart
+
+And then install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-10-18 00:35:46,486 - __main__ - ERROR - Application failed to start: Form data requires "python-multipart" to be installed. It seems you installed "multipart" instead. 
+You can remove "multipart" with: 
+
+pip uninstall multipart
+
+And then install "python-multipart" with: 
+
+pip install python-multipart
+Traceback (most recent call last):
+  File "/home/shehab/projects/time_table_scheduler/main_entry.py", line 72, in main
+    api_handler = initialize_application()
+  File "/home/shehab/projects/time_table_scheduler/main_entry.py", line 60, in initialize_application
+    api_handler = APIHandler(slot_manager, validator, parser)
+  File "/home/shehab/projects/time_table_scheduler/src/api.py", line 142, in __init__
+    self._register_routes()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/shehab/projects/time_table_scheduler/src/api.py", line 272, in _register_routes
+    @self.app.post("/upload-csv", tags=["Data Import"])
+     ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/site-packages/fastapi/routing.py", line 1072, in decorator
+    self.add_api_route(
+    ~~~~~~~~~~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<23 lines>...
+        generate_unique_id_function=generate_unique_id_function,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/lib/python3.13/site-packages/fastapi/routing.py", line 1011, in add_api_route
+    route = route_class(
+        self.prefix + path,
+    ...<24 lines>...
+        generate_unique_id_function=current_generate_unique_id,
+    )
+  File "/usr/lib/python3.13/site-packages/fastapi/routing.py", line 632, in __init__
+    self.dependant = get_dependant(path=self.path_format, call=self.endpoint)
+                     ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/site-packages/fastapi/dependencies/utils.py", line 297, in get_dependant
+    param_details = analyze_param(
+        param_name=param_name,
+    ...<2 lines>...
+        is_path_param=is_path_param,
+    )
+  File "/usr/lib/python3.13/site-packages/fastapi/dependencies/utils.py", line 516, in analyze_param
+    ensure_multipart_is_installed()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/site-packages/fastapi/dependencies/utils.py", line 122, in ensure_multipart_is_installed
+    raise RuntimeError(multipart_incorrect_install_error) from None
+RuntimeError: Form data requires "python-multipart" to be installed. It seems you installed "multipart" instead. 
+You can remove "multipart" with: 
+
+pip uninstall multipart
+
+And then install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-10-18 00:36:37,259 - __main__ - INFO - Initializing Timetable Management System...
+2025-10-18 00:36:37,259 - src.database - INFO - Database schema initialized successfully
+2025-10-18 00:36:37,259 - __main__ - INFO - Database initialized
+2025-10-18 00:36:37,259 - __main__ - INFO - Data parser initialized
+2025-10-18 00:36:37,259 - __main__ - INFO - Schedule validator initialized
+2025-10-18 00:36:37,260 - __main__ - INFO - Slot manager initialized
+2025-10-18 00:36:37,265 - fastapi - ERROR - Form data requires "python-multipart" to be installed. It seems you installed "multipart" instead. 
+You can remove "multipart" with: 
+
+pip uninstall multipart
+
+And then install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-10-18 00:36:37,265 - __main__ - ERROR - Application failed to start: Form data requires "python-multipart" to be installed. It seems you installed "multipart" instead. 
+You can remove "multipart" with: 
+
+pip uninstall multipart
+
+And then install "python-multipart" with: 
+
+pip install python-multipart
+Traceback (most recent call last):
+  File "/home/shehab/projects/time_table_scheduler/main_entry.py", line 72, in main
+    api_handler = initialize_application()
+  File "/home/shehab/projects/time_table_scheduler/main_entry.py", line 60, in initialize_application
+    api_handler = APIHandler(slot_manager, validator, parser)
+  File "/home/shehab/projects/time_table_scheduler/src/api.py", line 142, in __init__
+    self._register_routes()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/shehab/projects/time_table_scheduler/src/api.py", line 272, in _register_routes
+    @self.app.post("/upload-csv", tags=["Data Import"])
+     ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/site-packages/fastapi/routing.py", line 1072, in decorator
+    self.add_api_route(
+    ~~~~~~~~~~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<23 lines>...
+        generate_unique_id_function=generate_unique_id_function,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/lib/python3.13/site-packages/fastapi/routing.py", line 1011, in add_api_route
+    route = route_class(
+        self.prefix + path,
+    ...<24 lines>...
+        generate_unique_id_function=current_generate_unique_id,
+    )
+  File "/usr/lib/python3.13/site-packages/fastapi/routing.py", line 632, in __init__
+    self.dependant = get_dependant(path=self.path_format, call=self.endpoint)
+                     ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/site-packages/fastapi/dependencies/utils.py", line 297, in get_dependant
+    param_details = analyze_param(
+        param_name=param_name,
+    ...<2 lines>...
+        is_path_param=is_path_param,
+    )
+  File "/usr/lib/python3.13/site-packages/fastapi/dependencies/utils.py", line 516, in analyze_param
+    ensure_multipart_is_installed()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/site-packages/fastapi/dependencies/utils.py", line 122, in ensure_multipart_is_installed
+    raise RuntimeError(multipart_incorrect_install_error) from None
+RuntimeError: Form data requires "python-multipart" to be installed. It seems you installed "multipart" instead. 
+You can remove "multipart" with: 
+
+pip uninstall multipart
+
+And then install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-10-18 00:38:13,808 - __main__ - INFO - Initializing Timetable Management System...
+2025-10-18 00:38:13,809 - src.database - INFO - Database schema initialized successfully
+2025-10-18 00:38:13,809 - __main__ - INFO - Database initialized
+2025-10-18 00:38:13,809 - __main__ - INFO - Data parser initialized
+2025-10-18 00:38:13,809 - __main__ - INFO - Schedule validator initialized
+2025-10-18 00:38:13,809 - __main__ - INFO - Slot manager initialized
+2025-10-18 00:38:13,814 - __main__ - INFO - API handler initialized
+2025-10-18 00:38:13,814 - __main__ - INFO - Application initialization complete
+2025-10-18 00:38:13,814 - __main__ - INFO - Starting server on 0.0.0.0:8000
+2025-10-18 00:38:13,814 - __main__ - INFO - API documentation available at http://0.0.0.0:8000/docs
+2025-10-18 01:12:27,949 - src.parser - WARNING - Skipping row 13: Row 13: lecture_number must be a valid integer: '0'
+2025-10-18 01:12:27,949 - src.parser - INFO - Successfully parsed 14 schedule entries
+2025-10-18 01:12:27,953 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,953 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,953 - src.manager - WARNING - Failed to create slot 0: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,954 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,954 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,954 - src.manager - WARNING - Failed to create slot 1: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,955 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,955 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,955 - src.manager - WARNING - Failed to create slot 2: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,956 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,956 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,956 - src.manager - WARNING - Failed to create slot 3: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,957 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,957 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,957 - src.manager - WARNING - Failed to create slot 4: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,958 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,958 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,958 - src.manager - WARNING - Failed to create slot 5: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,959 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,959 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,959 - src.manager - WARNING - Failed to create slot 6: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,960 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,960 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,960 - src.manager - WARNING - Failed to create slot 7: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,961 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,961 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,961 - src.manager - WARNING - Failed to create slot 8: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,962 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,962 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,962 - src.manager - WARNING - Failed to create slot 9: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,963 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,963 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,963 - src.manager - WARNING - Failed to create slot 10: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,964 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,964 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,964 - src.manager - WARNING - Failed to create slot 11: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,965 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,965 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,965 - src.manager - WARNING - Failed to create slot 12: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,966 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,966 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:27,966 - src.manager - WARNING - Failed to create slot 13: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:37,364 - src.api - INFO - Retrieved 0 schedule slots
+2025-10-18 01:12:42,238 - src.parser - WARNING - Skipping row 13: Row 13: lecture_number must be a valid integer: '0'
+2025-10-18 01:12:42,238 - src.parser - INFO - Successfully parsed 14 schedule entries
+2025-10-18 01:12:42,239 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,239 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,239 - src.manager - WARNING - Failed to create slot 0: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,240 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,240 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,240 - src.manager - WARNING - Failed to create slot 1: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,241 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,241 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,241 - src.manager - WARNING - Failed to create slot 2: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,242 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,242 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,242 - src.manager - WARNING - Failed to create slot 3: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,243 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,243 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,243 - src.manager - WARNING - Failed to create slot 4: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,243 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,244 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,244 - src.manager - WARNING - Failed to create slot 5: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,244 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,244 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,245 - src.manager - WARNING - Failed to create slot 6: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,245 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,245 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,245 - src.manager - WARNING - Failed to create slot 7: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,246 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,246 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,246 - src.manager - WARNING - Failed to create slot 8: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,247 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,247 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,247 - src.manager - WARNING - Failed to create slot 9: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,248 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,248 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,248 - src.manager - WARNING - Failed to create slot 10: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,249 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,249 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,249 - src.manager - WARNING - Failed to create slot 11: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,250 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,250 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,250 - src.manager - WARNING - Failed to create slot 12: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,251 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,251 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:42,251 - src.manager - WARNING - Failed to create slot 13: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:12:53,693 - src.parser - WARNING - Skipping row 13: Row 13: lecture_number must be a valid integer: '0'
+2025-10-18 01:12:53,693 - src.parser - INFO - Successfully parsed 14 schedule entries
+2025-10-18 01:12:53,703 - src.manager - INFO - Created schedule slot 31
+2025-10-18 01:12:53,708 - src.manager - INFO - Created schedule slot 32
+2025-10-18 01:12:53,713 - src.manager - INFO - Created schedule slot 33
+2025-10-18 01:12:53,718 - src.manager - INFO - Created schedule slot 34
+2025-10-18 01:12:53,723 - src.manager - INFO - Created schedule slot 35
+2025-10-18 01:12:53,729 - src.manager - INFO - Created schedule slot 36
+2025-10-18 01:12:53,735 - src.manager - INFO - Created schedule slot 37
+2025-10-18 01:12:53,743 - src.manager - INFO - Created schedule slot 38
+2025-10-18 01:12:53,750 - src.manager - INFO - Created schedule slot 39
+2025-10-18 01:12:53,756 - src.manager - INFO - Created schedule slot 40
+2025-10-18 01:12:53,762 - src.manager - INFO - Created schedule slot 41
+2025-10-18 01:12:53,767 - src.manager - INFO - Created schedule slot 42
+2025-10-18 01:12:53,772 - src.manager - INFO - Created schedule slot 43
+2025-10-18 01:12:53,776 - src.manager - INFO - Created schedule slot 44
+2025-10-18 01:12:59,850 - src.api - INFO - Retrieved 0 schedule slots
+2025-10-18 01:14:09,483 - __main__ - INFO - Initializing Timetable Management System...
+2025-10-18 01:14:09,484 - src.database - INFO - Database schema initialized successfully
+2025-10-18 01:14:09,484 - __main__ - INFO - Database initialized
+2025-10-18 01:14:09,484 - __main__ - INFO - Data parser initialized
+2025-10-18 01:14:09,484 - __main__ - INFO - Schedule validator initialized
+2025-10-18 01:14:09,484 - __main__ - INFO - Slot manager initialized
+2025-10-18 01:14:09,489 - fastapi - ERROR - Form data requires "python-multipart" to be installed. It seems you installed "multipart" instead. 
+You can remove "multipart" with: 
+
+pip uninstall multipart
+
+And then install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-10-18 01:14:09,489 - __main__ - ERROR - Application failed to start: Form data requires "python-multipart" to be installed. It seems you installed "multipart" instead. 
+You can remove "multipart" with: 
+
+pip uninstall multipart
+
+And then install "python-multipart" with: 
+
+pip install python-multipart
+Traceback (most recent call last):
+  File "/home/shehab/projects/time_table_scheduler/main_entry.py", line 72, in main
+    api_handler = initialize_application()
+  File "/home/shehab/projects/time_table_scheduler/main_entry.py", line 60, in initialize_application
+    api_handler = APIHandler(slot_manager, validator, parser)
+  File "/home/shehab/projects/time_table_scheduler/src/api.py", line 142, in __init__
+    self._register_routes()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/shehab/projects/time_table_scheduler/src/api.py", line 272, in _register_routes
+    @self.app.post("/upload-csv", tags=["Data Import"])
+     ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/site-packages/fastapi/routing.py", line 1072, in decorator
+    self.add_api_route(
+    ~~~~~~~~~~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<23 lines>...
+        generate_unique_id_function=generate_unique_id_function,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/lib/python3.13/site-packages/fastapi/routing.py", line 1011, in add_api_route
+    route = route_class(
+        self.prefix + path,
+    ...<24 lines>...
+        generate_unique_id_function=current_generate_unique_id,
+    )
+  File "/usr/lib/python3.13/site-packages/fastapi/routing.py", line 632, in __init__
+    self.dependant = get_dependant(path=self.path_format, call=self.endpoint)
+                     ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/site-packages/fastapi/dependencies/utils.py", line 297, in get_dependant
+    param_details = analyze_param(
+        param_name=param_name,
+    ...<2 lines>...
+        is_path_param=is_path_param,
+    )
+  File "/usr/lib/python3.13/site-packages/fastapi/dependencies/utils.py", line 516, in analyze_param
+    ensure_multipart_is_installed()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/site-packages/fastapi/dependencies/utils.py", line 122, in ensure_multipart_is_installed
+    raise RuntimeError(multipart_incorrect_install_error) from None
+RuntimeError: Form data requires "python-multipart" to be installed. It seems you installed "multipart" instead. 
+You can remove "multipart" with: 
+
+pip uninstall multipart
+
+And then install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-10-18 01:14:21,242 - __main__ - INFO - Initializing Timetable Management System...
+2025-10-18 01:14:21,242 - src.database - INFO - Database schema initialized successfully
+2025-10-18 01:14:21,242 - __main__ - INFO - Database initialized
+2025-10-18 01:14:21,242 - __main__ - INFO - Data parser initialized
+2025-10-18 01:14:21,243 - __main__ - INFO - Schedule validator initialized
+2025-10-18 01:14:21,243 - __main__ - INFO - Slot manager initialized
+2025-10-18 01:14:21,248 - fastapi - ERROR - Form data requires "python-multipart" to be installed. It seems you installed "multipart" instead. 
+You can remove "multipart" with: 
+
+pip uninstall multipart
+
+And then install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-10-18 01:14:21,248 - __main__ - ERROR - Application failed to start: Form data requires "python-multipart" to be installed. It seems you installed "multipart" instead. 
+You can remove "multipart" with: 
+
+pip uninstall multipart
+
+And then install "python-multipart" with: 
+
+pip install python-multipart
+Traceback (most recent call last):
+  File "/home/shehab/projects/time_table_scheduler/main_entry.py", line 72, in main
+    api_handler = initialize_application()
+  File "/home/shehab/projects/time_table_scheduler/main_entry.py", line 60, in initialize_application
+    api_handler = APIHandler(slot_manager, validator, parser)
+  File "/home/shehab/projects/time_table_scheduler/src/api.py", line 142, in __init__
+    self._register_routes()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/shehab/projects/time_table_scheduler/src/api.py", line 272, in _register_routes
+    @self.app.post("/upload-csv", tags=["Data Import"])
+     ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/site-packages/fastapi/routing.py", line 1072, in decorator
+    self.add_api_route(
+    ~~~~~~~~~~~~~~~~~~^
+        path,
+        ^^^^^
+    ...<23 lines>...
+        generate_unique_id_function=generate_unique_id_function,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/lib/python3.13/site-packages/fastapi/routing.py", line 1011, in add_api_route
+    route = route_class(
+        self.prefix + path,
+    ...<24 lines>...
+        generate_unique_id_function=current_generate_unique_id,
+    )
+  File "/usr/lib/python3.13/site-packages/fastapi/routing.py", line 632, in __init__
+    self.dependant = get_dependant(path=self.path_format, call=self.endpoint)
+                     ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/site-packages/fastapi/dependencies/utils.py", line 297, in get_dependant
+    param_details = analyze_param(
+        param_name=param_name,
+    ...<2 lines>...
+        is_path_param=is_path_param,
+    )
+  File "/usr/lib/python3.13/site-packages/fastapi/dependencies/utils.py", line 516, in analyze_param
+    ensure_multipart_is_installed()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/site-packages/fastapi/dependencies/utils.py", line 122, in ensure_multipart_is_installed
+    raise RuntimeError(multipart_incorrect_install_error) from None
+RuntimeError: Form data requires "python-multipart" to be installed. It seems you installed "multipart" instead. 
+You can remove "multipart" with: 
+
+pip uninstall multipart
+
+And then install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-10-18 01:14:38,651 - __main__ - INFO - Initializing Timetable Management System...
+2025-10-18 01:14:38,652 - src.database - INFO - Database schema initialized successfully
+2025-10-18 01:14:38,652 - __main__ - INFO - Database initialized
+2025-10-18 01:14:38,652 - __main__ - INFO - Data parser initialized
+2025-10-18 01:14:38,652 - __main__ - INFO - Schedule validator initialized
+2025-10-18 01:14:38,652 - __main__ - INFO - Slot manager initialized
+2025-10-18 01:14:38,655 - __main__ - INFO - API handler initialized
+2025-10-18 01:14:38,655 - __main__ - INFO - Application initialization complete
+2025-10-18 01:14:38,655 - __main__ - INFO - Starting server on 0.0.0.0:8000
+2025-10-18 01:14:38,655 - __main__ - INFO - API documentation available at http://0.0.0.0:8000/docs
+2025-10-18 01:14:47,307 - src.parser - WARNING - Skipping row 13: Row 13: lecture_number must be a valid integer: '0'
+2025-10-18 01:14:47,308 - src.parser - INFO - Successfully parsed 14 schedule entries
+2025-10-18 01:14:47,314 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,314 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,314 - src.manager - WARNING - Failed to create slot 0: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,315 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,315 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,315 - src.manager - WARNING - Failed to create slot 1: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,316 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,316 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,316 - src.manager - WARNING - Failed to create slot 2: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,317 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,317 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,317 - src.manager - WARNING - Failed to create slot 3: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,318 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,318 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,318 - src.manager - WARNING - Failed to create slot 4: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,319 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,319 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,319 - src.manager - WARNING - Failed to create slot 5: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,320 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,320 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,320 - src.manager - WARNING - Failed to create slot 6: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,321 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,321 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,321 - src.manager - WARNING - Failed to create slot 7: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,322 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,322 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,322 - src.manager - WARNING - Failed to create slot 8: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,323 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,323 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,323 - src.manager - WARNING - Failed to create slot 9: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,324 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,324 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,324 - src.manager - WARNING - Failed to create slot 10: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,325 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,325 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,325 - src.manager - WARNING - Failed to create slot 11: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,326 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,326 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,326 - src.manager - WARNING - Failed to create slot 12: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,327 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,327 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:47,327 - src.manager - WARNING - Failed to create slot 13: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:14:58,343 - src.parser - WARNING - Skipping row 13: Row 13: lecture_number must be a valid integer: '0'
+2025-10-18 01:14:58,343 - src.parser - INFO - Successfully parsed 14 schedule entries
+2025-10-18 01:14:58,353 - src.manager - INFO - Created schedule slot 45
+2025-10-18 01:14:58,357 - src.manager - INFO - Created schedule slot 46
+2025-10-18 01:14:58,361 - src.manager - INFO - Created schedule slot 47
+2025-10-18 01:14:58,365 - src.manager - INFO - Created schedule slot 48
+2025-10-18 01:14:58,370 - src.manager - INFO - Created schedule slot 49
+2025-10-18 01:14:58,375 - src.manager - INFO - Created schedule slot 50
+2025-10-18 01:14:58,381 - src.manager - INFO - Created schedule slot 51
+2025-10-18 01:14:58,385 - src.manager - INFO - Created schedule slot 52
+2025-10-18 01:14:58,389 - src.manager - INFO - Created schedule slot 53
+2025-10-18 01:14:58,393 - src.manager - INFO - Created schedule slot 54
+2025-10-18 01:14:58,396 - src.manager - INFO - Created schedule slot 55
+2025-10-18 01:14:58,399 - src.manager - INFO - Created schedule slot 56
+2025-10-18 01:14:58,403 - src.manager - INFO - Created schedule slot 57
+2025-10-18 01:14:58,406 - src.manager - INFO - Created schedule slot 58
+2025-10-18 01:15:02,957 - src.api - INFO - Retrieved 0 schedule slots
+2025-10-18 01:18:19,614 - src.parser - WARNING - Skipping row 13: Row 13: lecture_number must be a valid integer: '0'
+2025-10-18 01:18:19,614 - src.parser - INFO - Successfully parsed 14 schedule entries
+2025-10-18 01:18:19,617 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,617 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,617 - src.manager - WARNING - Failed to create slot 0: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,618 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,619 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,619 - src.manager - WARNING - Failed to create slot 1: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,621 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,621 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,621 - src.manager - WARNING - Failed to create slot 2: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,622 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,622 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,622 - src.manager - WARNING - Failed to create slot 3: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,623 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,623 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,623 - src.manager - WARNING - Failed to create slot 4: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,623 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,624 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,624 - src.manager - WARNING - Failed to create slot 5: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,624 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,624 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,625 - src.manager - WARNING - Failed to create slot 6: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,625 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,625 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,625 - src.manager - WARNING - Failed to create slot 7: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,626 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,626 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,626 - src.manager - WARNING - Failed to create slot 8: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,627 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,627 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,627 - src.manager - WARNING - Failed to create slot 9: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,628 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,628 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,628 - src.manager - WARNING - Failed to create slot 10: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,629 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,629 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,629 - src.manager - WARNING - Failed to create slot 11: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,630 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,630 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,630 - src.manager - WARNING - Failed to create slot 12: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,631 - src.database - ERROR - Database transaction failed: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,631 - src.manager - ERROR - Failed to create slot: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number
+2025-10-18 01:18:19,631 - src.manager - WARNING - Failed to create slot 13: Database error: UNIQUE constraint failed: schedule.course_id, schedule.section_id, schedule.lecture_number

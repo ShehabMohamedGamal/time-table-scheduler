@@ -160,6 +160,14 @@ class DatabaseManager:
             self._initialized = True
             logger.info("Database schema initialized successfully")
     
+    def clear_all_data(self):
+        """Clear all data from the database tables."""
+        with self.get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("DELETE FROM schedule")
+            conn.commit()
+            logger.info("All data cleared from database")
+    
     # ==================== Schedule CRUD Operations ====================
     
     def get_all_schedules(self) -> List[Dict[str, Any]]:

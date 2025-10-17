@@ -1,16 +1,17 @@
 # Intelligent Timetable Management System
 
-A modular, object-oriented university timetable management system with automated conflict detection, efficiency analysis, and RESTful API.
+A modular, object-oriented university timetable management system with automated conflict detection, efficiency analysis, RESTful API, and CSV import functionality.
 
 ## 📁 Project Structure
 
 ```
 timetable-system/
 │
-├── main.py                 # Application entry point
+├── main_entry.py           # Application entry point
 ├── config.py               # Centralized configuration
-├── requirements.txt        # Python dependencies
+├── requirements_file.txt   # Python dependencies
 ├── README.md              # This file
+├── USAGE_GUIDE.md         # Complete usage guide
 │
 ├── src/                   # Source modules
 │   ├── __init__.py
@@ -136,6 +137,51 @@ The API will be available at:
 ### System
 
 - `GET /health` - Health check
+
+## 📊 CSV Import Functionality
+
+The system now supports flexible CSV import with automatic data cleaning and validation.
+
+### Supported CSV Formats
+
+**Required Columns:**
+- `course_id` (or `Course`) - Course identifier
+- `day` (or `Day`) - Day of the week  
+- `start_time` (or `Start`) - Start time in HH:MM format
+- `end_time` (or `End`) - End time in HH:MM format
+- `room_id` (or `Room`) - Room identifier
+
+**Optional Columns:**
+- `section_id` (or `Section`) - Section identifier (defaults to 'S1')
+- `lecture_number` (or `Lecture`) - Lecture number (auto-extracted if missing)
+- `instructor_id` (or `Instructor`) - Instructor identifier (defaults to 'UNKNOWN')
+
+### CSV Upload Example
+
+```bash
+# Upload CSV file
+curl -X POST "http://localhost:8000/upload-csv" \
+     -H "Content-Type: text/csv" \
+     --data-binary @timetable.csv
+```
+
+### Automatic Data Processing
+
+- **Time Format Fixes**: `0:15` → `12:15`, `0:29` → `12:29`
+- **BOM Handling**: Automatically removes Byte Order Mark
+- **Field Mapping**: Supports various column name variations
+- **Data Validation**: Comprehensive error checking and reporting
+
+### Example CSV
+
+```csv
+course_id,section_id,lecture_number,day,start_time,end_time,room_id,instructor_id
+CS101,S1,1,Monday,09:00,10:30,F1.01,PROF01
+MATH201,S2,1,Tuesday,10:45,12:15,F1.02,PROF02
+PHYS101,S1,1,Wednesday,14:00,15:30,F1.20,PROF03
+```
+
+For detailed CSV usage instructions, see [USAGE_GUIDE.md](USAGE_GUIDE.md).
 
 ## 📝 API Usage Examples
 

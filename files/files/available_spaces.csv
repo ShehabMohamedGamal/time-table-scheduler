@@ -1,0 +1,121 @@
+building,space,capacity,space_type
+Building 07,F1.01,25.0,Classroom
+Building 07,F1.02,25.0,Classroom
+Building 07,F1.20,25.0,Classroom
+Building 07,F1.21,25.0,Classroom
+Building 07,F1.22,25.0,Classroom
+Building 07,F1.23,25.0,Classroom
+Building 07,F1.24,25.0,Classroom
+Building 07,G.01,75.0,Classroom
+Building 08,F1.06,50.0,Classroom
+Building 08,F1.07,25.0,Classroom
+Building 08,F1.10,25.0,Classroom
+Building 08,F1.11,25.0,Classroom
+Building 08,F1.25,25.0,Classroom
+Building 08,G.41,75.0,Classroom
+Building 09,F1.04,25.0,Classroom
+Building 09,F1.05,25.0,Classroom
+Building 09,F1.09,15.0,Classroom
+Building 09,F1.12,15.0,Classroom
+Building 09,F1.13,25.0,Classroom
+Building 09,F1.14,25.0,Classroom
+Building 09,F1.22,25.0,Classroom
+Building 09,G.35,75.0,Classroom
+Building 10,F1.06,25.0,Classroom
+Building 10,F1.07,25.0,Classroom
+Building 10,F1.08,25.0,Classroom
+Building 10,F1.10,25.0,Classroom
+Building 10,F1.11,25.0,Classroom
+Building 10,F1.18,25.0,Classroom
+Building 17,F1.03,75.0,Classroom
+Building 17,F1.08,25.0,Classroom
+Building 17,F1.09,25.0,Classroom
+Building 17,F1.13,25.0,Classroom
+Building 17,F1.14,25.0,Classroom
+Building 17,F1.15,75.0,Classroom
+Building 17,F1.16,75.0,Classroom
+Building 17,F1.17,25.0,Classroom
+Building 17,F1.18,25.0,Classroom
+Building 17,G.02,25.0,Classroom
+Building 17,G.04,25.0,Classroom
+Building 17,G.07,25.0,Classroom
+Building 17,G.08,25.0,Classroom
+Building 17,G.09,75.0,Classroom
+Building 17,G.12,25.0,Classroom
+Building 17,G.19,25.0,Classroom
+Building 17,G.20,25.0,Classroom
+Building 17,G.21,25.0,Classroom
+Building 18,F1.01,50.0,Classroom
+Building 18,F1.02,25.0,Classroom
+Building 18,F1.05,50.0,Classroom
+Building 18,F1.08,25.0,Classroom
+Building 18,F1.10,50.0,Classroom
+Building 18,F1.12,25.0,Classroom
+Building 18,F1.13,25.0,Classroom
+Building 18,F1.14,50.0,Classroom
+Building 18,F1.19,50.0,Classroom
+Building 18,F1.20,25.0,Classroom
+Building 18,G.02,25.0,Classroom
+Building 18,G.03,25.0,Classroom
+Building 18,G.04,25.0,Classroom
+Building 18,G.07,25.0,Classroom
+Building 18,G.08,75.0,Classroom
+Building 18,G.09,50.0,Classroom
+Building 18,G.11,25.0,Classroom
+Building 18,G.12,25.0,Classroom
+Building 18,G.13,50.0,Classroom
+Building 18,G.16,25.0,Classroom
+Building 18,G.18,50.0,Computer Lab
+Building 18,G.19,25.0,Classroom
+Building 18,G.20,25.0,Classroom
+Building 18,G.21,50.0,Classroom
+Building 25,F1.10,25.0,Classroom
+Building 25,F1.11,25.0,Classroom
+Building 25,F1.13,25.0,Classroom
+Building 25,F1.14,25.0,Classroom
+Building 25,F1.18,25.0,Classroom
+Building 25,G.02,25.0,Classroom
+Building 25,G.04,25.0,Classroom
+Building 25,G.05,25.0,Classroom
+Building 25,G.13,50.0,Classroom
+Building 25,G.16,25.0,Classroom
+Building 25,G.17,25.0,Classroom
+Building 26,F1.01,75.0,Classroom
+Building 26,F1.02,25.0,Classroom
+Building 26,F1.03,25.0,Classroom
+Building 26,F1.04,25.0,Classroom
+Building 26,F1.08,75.0,Classroom
+Building 26,F1.10,75.0,Classroom
+Building 26,F1.12,25.0,Classroom
+Building 26,F1.13,75.0,Classroom
+Building 26,F1.16,75.0,Classroom
+Building 26,F1.19,25.0,Drawing Studio
+Building 26,G.01,50.0,Drawing Studio
+Building 26,G.02,50.0,Classroom
+Building 26,G.03,25.0,Classroom
+Building 26,G.04,25.0,Classroom
+Building 26,G.06,25.0,Classroom
+Building 26,G.07,25.0,Classroom
+Building 26,G.08,75.0,Classroom
+Building 26,G.10,25.0,Classroom
+Building 26,G.11,50.0,Drawing Studio
+Building 26,G.12,25.0,Classroom
+Building 26,G.13,25.0,Classroom
+Building 26,G.14,50.0,Classroom
+Building 26,G.18,25.0,Classroom
+Building 26,G.19,50.0,Drawing Studio
+Building 26,G.20,25.0,Classroom
+Building 26,G.21,75.0,Classroom
+CoE,F1.12,50.0,FoE Drawing Lab
+Hall - Blue,Hall,150.0,Hall
+Hall - Green,Hall,150.0,Hall
+Hall - Red,Hall,150.0,Hall
+Hall - Yellow,Hall,150.0,Hall
+B7,Theater,100.0,Theater
+B8,Theater,100.0,Theater
+B9,Theater,100.0,Theater
+B10,Theater,100.0,Theater
+B25,G-21,100.0,Theater
+B25,F1-19,100.0,Theater
+B18,F1-21,100.0,Theater
+B26,G-22 ,100.0,Theater

@@ -8,7 +8,7 @@ import logging
 from datetime import datetime
 from typing import Optional, List, Dict, Any
 
-from fastapi import FastAPI, HTTPException, status, UploadFile, File
+from fastapi import FastAPI, HTTPException, status, Request
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field, validator
 
@@ -26,8 +26,8 @@ class SlotCreate(BaseModel):
     section_id: str = Field(..., min_length=1, max_length=50)
     lecture_number: int = Field(..., ge=1, le=MAX_LECTURE_NUMBER)
     day: str = Field(..., min_length=1)
-    start_time: str = Field(..., regex=TIME_SLOT_REGEX)
-    end_time: str = Field(..., regex=TIME_SLOT_REGEX)
+    start_time: str = Field(..., pattern=TIME_SLOT_REGEX)
+    end_time: str = Field(..., pattern=TIME_SLOT_REGEX)
     room_id: str = Field(..., min_length=1, max_length=50)
     instructor_id: str = Field(..., min_length=1, max_length=50)
     
@@ -49,7 +49,7 @@ class SlotCreate(BaseModel):
         return v
     
     class Config:
-        schema_extra = {
+        json_schema_extra = {
             "example": {
                 "course_id": "CS101",
                 "section_id": "S1",
@@ -66,8 +66,8 @@ class SlotCreate(BaseModel):
 class SlotUpdate(BaseModel):
     """Model for updating an existing schedule slot"""
     day: Optional[str] = Field(None, min_length=1)
-    start_time: Optional[str] = Field(None, regex=TIME_SLOT_REGEX)
-    end_time: Optional[str] = Field(None, regex=TIME_SLOT_REGEX)
+    start_time: Optional[str] = Field(None, pattern=TIME_SLOT_REGEX)
+    end_time: Optional[str] = Field(None, pattern=TIME_SLOT_REGEX)
     room_id: Optional[str] = Field(None, min_length=1, max_length=50)
     instructor_id: Optional[str] = Field(None, min_length=1, max_length=50)
     
@@ -80,7 +80,7 @@ class SlotUpdate(BaseModel):
         return v
     
     class Config:
-        schema_extra = {
+        json_schema_extra = {
             "example": {
                 "day": "Tuesday",
                 "start_time": "14:00",
@@ -270,11 +270,11 @@ class APIHandler:
                 )
         
         @self.app.post("/upload-csv", tags=["Data Import"])
-        async def upload_csv(file: UploadFile = File(...)) -> Dict:
+        async def upload_csv(request: Request) -> Dict:
             """Upload and parse CSV file to create schedule entries"""
             try:
-                # Read file content
-                content = await file.read()
+                # Read raw content from request body
+                content = await request.body()
                 
                 # Parse CSV
                 entries = self.parser.parse_csv_file(content)
@@ -287,7 +287,7 @@ class APIHandler:
                 
                 return {
                     "message": "CSV processed successfully",
-                    "filename": file.filename,
+                    "filename": "uploaded_file.csv",  # Default filename since we can't get it from multipart
                     **result
                 }
             except ValueError as e:
