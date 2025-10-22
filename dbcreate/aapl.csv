@@ -1,0 +1,135 @@
+course_id,course_name,credits,course_type,Day,start_time,end_time,room_id,room_type,instructor_id,name,qualified_courses,Space,Capacity,Type
+LRA401,Japanese Language (1),1,Lecture,Sunday,9:00,10:30,F1.01,Classroom,PROF01,Dr. Reda Elbasiony,CSC111,,,
+LRA402,Japanese Language (2),1,Lecture,Sunday,10:45,12:15,F1.02,Classroom,PROF02,Dr. Ayman Arafa,"MTH111, ACM215, MTH121, CNC320, CSC321",B07.F1.01,25,Classroom
+LRA403,Japanese Language (3),1,Lecture,Sunday,12:29,13:59,F1.20,Classroom,PROF03,Dr. Adel Fathy,"PHY113, PHY123",B07.F1.02,,Classroom
+LRA404,Japanese Language (4),1,Lecture,Sunday,14:15,15:45,F1.21,Classroom,PROF04,Dr. Sherine Elmotasem,LRA101,B07.F1.04,25,Computer Lab
+LRA405,Key Skills Seminar (1),2,Lecture,Monday,9:00,10:30,F1.22,Classroom,PROF05,Prof. Ahmed Allam,ECE111,B07.F1.20,25,Classroom
+LRA101,Japanese Culture,2,Lecture,Monday,10:45,12:15,F1.23,Classroom,PROF06,Dr. Sameh Sherif,"ECE111, BIF411, BIF412, BIF312, BIF322, BIF421",B07.F1.21,25,Classroom
+LRA208,Safety and Risk Management,2,Lecture,Monday,12:29,13:59,F1.24,Classroom,PROF07,Dr. Ahmed Arafa,"CSC211, AID413, AID427, CNC411, CSC221, CNC320, CNC321",B07.F1.22,25,Classroom
+LRA102,Introduction to Philosophy,2,Lecture,Monday,14:15,15:45,G.01,Classroom,PROF08,Dr. Ahmed Anter,"AID311, SPS315",B07.F1.23,25,Classroom
+LRA103,Fine Arts Appreciation-Drawing and Paintings,2,Lecture,Tuesday,9:00,10:30,F1.06,Classroom,PROF09,Prof. Mostafa Soliman,"CSE214, CSC115, CSC315, CNC222, CNC223, CSC429, CSC113",B07.F1.24,25,Classroom
+LRA104,Music and Technology,2,Lecture,Tuesday,10:45,12:15,F1.07,Classroom,PROF10,Dr. Ahmed Abdel-Malk,"ECE324, CNC325, ECE214",B07.G.01,75,Classroom
+LRA105,Theater and Drama,2,Lecture,Tuesday,12:29,13:59,F1.10,Classroom,PROF11,Dr. Ahmed Bayumi,"AID428, AID312, CSC415, BIF327, AID412, AID422",B07.G.12,,Computer Lab
+LRA106,Physical Education,2,Lecture,Tuesday,14:15,15:45,F1.11,Classroom,PROF12,Dr. Hataba,"CNC418, CNC419, CSC317, CSE423",B08.F1.06,50,Classroom
+LRA107,Selected topics in Japanese arts,2,Lecture,Wednesday,9:00,10:30,F1.25,Classroom,PROF13,Dr. Reda,"CNC312, AID426, CSC317, CSC422",B08.F1.07,25,Classroom
+LRA108,Art and Architecture of Ancient Egypt,2,Lecture,Wednesday,10:45,12:15,G.41,Classroom,PROF14,Prof. Samir Ahmed,"CNC413, CNC311, CNC323, CNC324, CNC327, AID413",B08.F1.10,25,Classroom
+LRA109,Introduction to Cultural Anthropology,2,Lecture,Wednesday,12:29,13:59,F1.04,Classroom,PROF15,Dr. Mohamed Issa,"BIF425, AID417, CNC314, CSC122, BIF321, BIF323, BIF328",B08.F1.11,25,Classroom
+LRA110,Modern Egyptian History,2,Lecture,Wednesday,14:15,15:45,F1.05,Classroom,PROF16,Dr. Mustafa AlSayed,"CSC426, CSC412, CNC415, CSC314, CSC414",B08.F1.25,25,Classroom
+LRA202,Peace studies,2,Lecture,Thursday,9:00,10:30,F1.09,Classroom,PROF17,Dr. Mohamed Akhames,"CSC410, CSC411, CNC324, BIF424, AID323, CSC324, AID421, CSC425, CSC427",B08.G.41,75,Classroom
+LRA203,Entrepreneurship and Innovation,2,Lecture,Thursday,10:45,12:15,F1.12,Classroom,PROF18,Prof. Marghany Hassan,"BIF413, AID321, AID411, CSC114, CSC322, CSE312, AID111",B09.F1.04,25,Classroom
+LRA204,Public Policy,2,Lecture,Thursday,12:29,13:59,F1.13,Classroom,PROF19,Dr. Nadia Fawzy,"CSC221, AID322, CNC111",B09.F1.05,25,Classroom
+LRA205,Egyptian Business Regulations,2,Lecture,Thursday,14:15,15:45,F1.14,Classroom,PROF20,Dr. Karim Hamed,"MTH212, CSC112, ECE213",B09.F1.09,15,Classroom
+LRA206,Sociology of work,2,Lecture,,,,F1.22,Classroom,PROF21,Dr. Moustafa Mahmoud,"CSC121, CSC323, CNC422",B09.F1.12,15,Classroom
+LRA207,African and Middle Eastern studies,2,Lecture,,,,G.35,Classroom,PROF22,Dr. Ali Kandil,"MTH121, ACM323",B09.F1.13,25,Classroom
+LRA201,Introduction to Economics and Sustainable Development,2,Lecture,,,,F1.06,Classroom,PROF23,Mohamad Ayad,CHM113,B09.F1.14,25,Classroom
+CSC316,Understanding Computers,2,Lecture,,,,F1.07,Classroom,PROF24,Prof. gehad G. Mohamed,CHM113,B09.F1.22,25,Classroom
+LRA302,Introduction to Life Sciences,2,Lecture,,,,F1.08,Classroom,PROF25,Dr. Mostafa Mohamed,"AID322, AID325",B09.G.35,75,Classroom
+LRA303,Introduction to Environmental Biology,2,Lecture,,,,F1.10,Classroom,PROF26,Dr. Yassen,"AID324, CNC421",B10.F1.06,25,Classroom
+LRA304,Water and Politics in Africa and Middle East,2,Lecture,,,,F1.11,Classroom,PROF27,Prof. Adel Al-senn,"LRA201, LRA104",B10.F1.07,25,Classroom
+LRA305,Astronomy,2,Lecture,,,,F1.18,Classroom,PROF28,Dr. Mohamed El-khateeb,"LRA203, LRA105",B10.F1.08,25,Classroom
+LRA306,Natural Resources and Sustainability,2,Lecture,,,,F1.03,Classroom,PROF29,Prof. Said Sadik,"LRA206, LRA306",B10.F1.10,25,Classroom
+LRA406,Key Skills Seminar (2),2,Lecture,,,,F1.08,Classroom,PROF30,Dr. Maali Fouad,LRA405,B10.F1.11,25,Classroom
+LRA407,English Language,2,Lecture,,,,F1.09,Classroom,PROF31,Prof. Mohamed Hassan,"LRA409, LRA208",B10.F1.18,25,Classroom
+LRA408,Arabic Language,2,Lecture,,,,F1.13,Classroom,PROF32,Dr. Amal Gomaa,"LRA410, LRA103",B17.F1.03,75,Classroom
+LRA409,Research Methods,2,Lecture,,,,F1.14,Classroom,PROF33,Dr. Kenji Tanaka,"LRA401, LRA402, LRA403",B17.F1.08,25,Classroom
+LRA410,Fundamentals of Communication,2,Lecture,,,,F1.15,Classroom,PROF34,Dr. Yumi Yamamoto,"LRA401, LRA402, LRA404",B17.F1.09,25,Classroom
+LRA411,Transformational Leadership,2,Lecture,,,,F1.16,Classroom,PROF35,Dr. Haruto Ito,"LRA401, LRA403, LRA404",B17.F1.13,25,Classroom
+MTH111,Mathematics (1) ( Calculus + Linear Algebra),3,Lecture and Lab,,,,F1.17,Classroom,AP01,Eng. Fatma Elsayed,"AID417, CNC311, CSC122, BIF328, CNC321, CNC422",B17.F1.14,25,Classroom
+MTH121,Mathematics (2) (Calculus + Linear Algebra),3,Lecture and Lab,,,,F1.18,Classroom,AP02,Eng. Nada Essam,"AID411, BIF425, CSC121, CSC122, AID325",B17.F1.15,75,Classroom
+CSE312,Discrete Mathematics,3,Lecture and Lab,,,,G.02,Classroom,AP03,Eng. Salma Alashry,"AID321, CNC314, CSC114, CSC122, AID322, CSC321, CSC322",B17.F1.16,75,Classroom
+MTH212,Probability and Statistics,3,Lecture and Lab,,,,G.04,Classroom,AP04,Eng. Mariam Ismael,"CSC111, CNC411, CSC121, CSC221, BIF321, BIF322",B17.F1.17,25,Classroom
+PHY113,Physics 1,3,Lecture and Lab,,,,G.07,Classroom,AP05,Eng. Nada Hamdy,"CSC111, CNC311, CSE312, BIF421, CNC422",B17.F1.18,25,Classroom
+PHY123,Physics 2,3,Lecture and Lab,,,,G.08,Classroom,AP06,Eng. Salma Waleed,"AID312, AID311, CSC323, CNC421, CSC317",B17.G.01,,Computer Lab
+BIO111,Fundamentals of life Science,3,Lecture and Lab,,,,G.09,Classroom,AP07,Eng. Menna Hamdi,"CNC312, CNC111, CSC122, CSC324, AID426",B17.G.02,25,Classroom
+ACM215,Ordinary Differential Equations,3,Lecture and Lab,,,,G.12,Classroom,AP08,Eng. Omnya Ramadan,"CSE214, CSC315, CSC115, CNC222",B17.G.04,25,Classroom
+ACM323,Applied Numerical Methods,3,Lecture and Lab,,,,G.19,Classroom,AP09,Eng. Heba Abdelkader,"CSE214, BIF327, AID412, AID422",B17.G.07,25,Classroom
+ACM422,Operations Research,3,Lecture and Lab,,,,G.20,Classroom,AP10,Eng. Nourhan Waleed,"AID312, CNC314, CSC121, CNC324, CNC421",B17.G.08,25,Classroom
+CHM113,Chemistry (1),3,Lecture and Lab,,,,G.21,Classroom,AP11,Eng. Menna Magdy,"CSC211, CSC317, AID323, CSE312, CSC422",B17.G.09,75,Classroom
+ECE223,Signal and Systems,3,Lecture and Lab,,,,F1.01,Classroom,AP12,Eng. Nada Ahmed,"CSC211, CSC317, AID325, CSC422",B17.G.12,25,Classroom
+AID323,Parallel & Distributed Computing,3,Lecture and Lab,,,,F1.02,Classroom,AP13,Eng. Laila Ibrahim,"CSC121, PHY113, ECE111",B17.G.16,,Computer Lab
+AID311,Mathematics of Data Science,3,Lecture and Lab,,,,F1.05,Classroom,AP14,Eng. Tarek Salah,"CSE214, AID311, CNC314",B17.G.17,,Computer Lab
+AID321,Machine Learning,3,Lecture and Lab,,,,F1.08,Classroom,AP15,Eng. Rana Mohamed,"CNC223, AID324",B17.G.19,25,Classroom
+AID411,BIG Data Analytics & Visualization,3,Lecture and Lab,,,,F1.10,Classroom,AP16,Eng. Saeed Mostafa,"CSC221, CNC320, AID421, CSC427",B17.G.20,25,Classroom
+AID412,Introduction to Neural network,3,Lecture and Lab,,,,F1.12,Classroom,AP17,Eng. Maria Mounir,"CSC221, CNC323, CSC425",B17.G.21,25,Classroom
+AID421,Computer Vision,3,Lecture and Lab,,,,F1.13,Classroom,AP18,Eng. Alaa Essam,"BIF323, AID421",B17.G.22,,Computer Lab
+AID322,Data Mining,3,Lecture and Lab,,,,F1.14,Classroom,AP19,Eng. Bassant Tolba,CNC325,B18.F1.01,50,Classroom
+AID422,Natural Language Processing,3,Lecture and Lab,,,,F1.19,Classroom,AP20,Eng. Menna Mahmoud,"CNC327, AID422",B18.F1.02,25,Classroom
+AID324,Image Processing,3,Lecture and Lab,,,,F1.20,Classroom,,,,B18.F1.05,50,Classroom
+AID413,Data Security,3,Lecture and Lab,,,,G.02,Classroom,,,,B18.F1.08,25,Classroom
+AID416,Reinforcement Learning,3,Lecture and Lab,,,,G.03,Classroom,,,,B18.F1.10,50,Classroom
+AID426,Robotics,3,Lecture and Lab,,,,G.04,Classroom,,,,B18.F1.12,25,Classroom
+AID328,Game Theory,3,Lecture and Lab,,,,G.07,Classroom,,,,B18.F1.13,25,Classroom
+AID427,New Trends in Data Science,3,Lecture and Lab,,,,G.08,Classroom,,,,B18.F1.14,50,Classroom
+AID428,New Trends in AI,3,Lecture and Lab,,,,G.09,Classroom,,,,B18.F1.19,50,Classroom
+AID326,Data Science in Business,3,Lecture and Lab,,,,G.11,Classroom,,,,B18.F1.20,25,Classroom
+AID417,Advanced Data Mining,3,Lecture and Lab,,,,G.12,Classroom,,,,B18.G.01,,Computer Lab
+AID327,Human Computer Interface,3,Lecture and Lab,,,,G.13,Classroom,,,,B18.G.02,25,Classroom
+AID425,AI in Bio-Computing,3,Lecture and Lab,,,,G.16,Classroom,,,,B18.G.03,25,Classroom
+AID325,BlockChain & Distributed Ledgers,3,Lecture and Lab,,,,G.18,Computer Lab,,,,B18.G.04,25,Classroom
+AID414,Graduation Project (1),2,Lab,,,,G.19,Classroom,,,,B18.G.05,,Computer Lab
+AID424,Graduation Project (2),4,Lab,,,,G.20,Classroom,,,,B18.G.07,25,Classroom
+AID423,Field Training (2 Modules),5,Lab,,,,G.21,Classroom,,,,B18.G.08,75,Classroom
+CSC111,Fundamentals of Programming,3,Lecture and Lab,,,,F1.10,Classroom,,,,B18.G.09,50,Classroom
+CSC121,Data Structures and Algorithms,3,Lecture and Lab,,,,F1.11,Classroom,,,,B18.G.11,25,Classroom
+CSC122,Advanced Programming,3,Lecture and Lab,,,,F1.13,Classroom,,,,B18.G.12,25,Classroom
+CSC211,Software Engineering,3,Lecture and Lab,,,,F1.14,Classroom,,,,B18.G.13,50,Classroom
+CSC221,Operating Systems,3,Lecture and Lab,,,,F1.18,Classroom,,,,B18.G.14,,Computer Lab
+AID312,Intelligent Systems,3,Lecture and Lab,,,,G.02,Classroom,,,,B18.G.16,25,Classroom
+CNC311,Computer Networks,3,Lecture and Lab,,,,G.04,Classroom,,,,B18.G.17,,Computer Lab
+CNC314,Database Systems,3,Lecture and Lab,,,,G.05,Classroom,,,,B18.G.18,50,Computer Lab
+ECE111,Digital Logic Design,3,Lecture and Lab,,,,G.13,Classroom,,,,B18.G.19,25,Classroom
+CSE214,Computer Organization,3,Lecture and Lab,,,,G.16,Classroom,,,,B18.G.20,25,Classroom
+CSC112,Project Management,3,Lecture and Lab,,,,G.17,Classroom,,,,B18.G.21,50,Classroom
+CNC111,Networks and Web Programming,3,Lecture and Lab,,,,F1.01,Classroom,,,,B25.F1.10,25,Classroom
+CSC113,Compiler Design,3,Lecture and Lab,,,,F1.02,Classroom,,,,B25.F1.11,25,Classroom
+CSC114,Algorithms Analysis and Design,3,Lecture and Lab,,,,F1.03,Classroom,,,,B25.F1.13,25,Classroom
+CSE423,Computer Graphics and Visualization,3,Lecture and Lab,,,,F1.04,Classroom,,,,B25.F1.14,25,Classroom
+AID111,Data Science,3,Lecture and Lab,,,,F1.08,Classroom,,,,B25.F1.18,25,Classroom
+ECE214,Digital Signal Processing,3,Lecture and Lab,,,,F1.10,Classroom,,,,B25.G.02,25,Classroom
+ECE213,Introduction to Electronics Engineering,3,Lecture and Lab,,,,F1.12,Classroom,,,,B25.G.04,25,Classroom
+CNC222,Introduction to Embedded Systems,3,Lecture and Lab,,,,F1.13,Classroom,,,,B25.G.05,25,Classroom
+AID221,Introduction to Artificial Intelligence,3,Lecture and Lab,,,,F1.16,Classroom,,,,B25.G.13,50,Classroom
+,,,,,,,F1.19,Drawing Studio,,,,B25.G.15,,bio lab
+,,,,,,,G.01,Drawing Studio,,,,B25.G.16,25,Classroom
+,,,,,,,G.02,Classroom,,,,B25.G.17,25,Classroom
+,,,,,,,G.03,Classroom,,,,B26.F1.01,75,Classroom
+,,,,,,,G.04,Classroom,,,,B26.F1.02,25,Classroom
+,,,,,,,G.06,Classroom,,,,B26.F1.03,25,Classroom
+,,,,,,,G.07,Classroom,,,,B26.F1.04,25,Classroom
+,,,,,,,G.08,Classroom,,,,B26.F1.08,75,Classroom
+,,,,,,,G.10,Classroom,,,,B26.F1.10,75,Classroom
+,,,,,,,G.11,Drawing Studio,,,,B26.F1.12,25,Classroom
+,,,,,,,G.12,Classroom,,,,B26.F1.13,75,Classroom
+,,,,,,,G.13,Classroom,,,,B26.F1.16,75,Classroom
+,,,,,,,G.14,Classroom,,,,B26.F1.19,25,Drawing Studio
+,,,,,,,G.18,Classroom,,,,B26.G.01,50,Drawing Studio
+,,,,,,,G.19,Drawing Studio,,,,B26.G.02,50,Classroom
+,,,,,,,G.20,Classroom,,,,B26.G.03,25,Classroom
+,,,,,,,G.21,Classroom,,,,B26.G.04,25,Classroom
+,,,,,,,F1.12,FoE Drawing Lab,,,,B26.G.06,25,Classroom
+,,,,,,,Hall,Hall,,,,B26.G.07,25,Classroom
+,,,,,,,Hall,Hall,,,,B26.G.08,75,Classroom
+,,,,,,,Hall,Hall,,,,B26.G.10,25,Classroom
+,,,,,,,Hall,Hall,,,,B26.G.11,50,Drawing Studio
+,,,,,,,,,,,,B26.G.12,25,Classroom
+,,,,,,,Theater,Theater,,,,B26.G.13,25,Classroom
+,,,,,,,Theater,Theater,,,,B26.G.14,50,Classroom
+,,,,,,,Theater,Theater,,,,B26.G.18,25,Classroom
+,,,,,,,Theater,Theater,,,,B26.G.19,50,Drawing Studio
+,,,,,,,G-21,Theater,,,,B26.G.20,25,Classroom
+,,,,,,,F1-19,Theater,,,,B26.G.21,75,Classroom
+,,,,,,,F1-21,Theater,,,,coe.F1.14,,Physics Lab
+,,,,,,,G-22 ,Theater,,,,coe.F1.12,50,FoE Drawing Lab
+,,,,,,,,,,,,Hall,150,Hall
+,,,,,,,,,,,,Hall,150,Hall
+,,,,,,,,,,,,Hall,150,Hall
+,,,,,,,,,,,,Hall,150,Hall
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,B07.Theater,100,Theater
+,,,,,,,,,,,,B08.Theater,100,Theater
+,,,,,,,,,,,,B09.Theater,100,Theater
+,,,,,,,,,,,,B10.Theater,100,Theater
+,,,,,,,,,,,,B25.G-21,100,Theater
+,,,,,,,,,,,,B25.F1-19,100,Theater
+,,,,,,,,,,,,B18.F1-21,100,Theater
+,,,,,,,,,,,,B26.G-22 ,100,Theater

@@ -1,4 +1,0 @@
-course_id,section_id,lecture_number,day,start_time,end_time,room_id,instructor_id
-CS101,S1,1,Monday,09:00,10:30,F1.01,I001
-MATH201,S2,1,Tuesday,10:45,12:15,F1.02,I002
-PHYS101,S1,1,Wednesday,14:00,15:30,F1.20,I003
